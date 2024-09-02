@@ -52,7 +52,7 @@ def get_naver_blog(keyword, startdate, enddate, to_csv=False) :
     if to_csv :
         df.to_csv(f'blog_{keyword}_{startdate}_{enddate}.csv', index=False)
         
-get_naver_blog('티니핑', '20240825', '20240825', to_csv=True)
+#get_naver_blog('티니핑', '20240825', '20240825', to_csv=True)
 
 
 
